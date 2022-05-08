@@ -1,2 +1,7 @@
-{{!-- all other templates go directly in views folder --}}
-<h1>You are on the homepage!</h1>
+<ol>
+    {{#each posts as |post|}}
+    <li>
+        {{> post post}}
+    </li>
+    {{/each}}
+</ol>
