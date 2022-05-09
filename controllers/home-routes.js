@@ -64,4 +64,14 @@ router.get('/post/:id', (req, res) => {
   });
 });
 
+// render login/signup page
+router.get('/login', (req, res) => {
+  // if logged in, redirect to homepage
+  if(req.session.loggedIn) {
+    res.redirect('/');
+    return;
+  }
+  res.render('login');
+});
+
 module.exports = router;
