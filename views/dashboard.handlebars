@@ -24,7 +24,7 @@
         <article class="post">
             <div>
                 <h3>{{title}}</h3>
-                <h5>Posted by {{user.username}} on {{created_at}}</h5>
+                <h5>Posted by {{user.username}} on {{format_date created_at}}</h5>
                 {{!-- takes user to single post --}}
                 <a href="dashboard/edit/{{post.id}}">Edit Post</a>
             </div>
