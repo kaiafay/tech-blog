@@ -5,7 +5,7 @@
             <h3>{{title}}</h3>
             <h5>Posted by {{user.username}} on {{format_date created_at}}</h5>
             {{!-- takes user to single post --}}
-            <a href="/post/{{id}}">View Post</a>
+            <a href="/post/{{id}}" class="post">View Post</a>
         </div>
     </article>
     {{/each}}

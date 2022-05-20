@@ -1,1 +1,23 @@
-/* styles go here */
+/* space header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* create a little space left of the elements */
+h1, h3, h5, a.post {
+    margin-left: 1%;
+}
+
+/* space nav bar */
+nav {
+    margin: 0.5% 1.5% 0 0;
+}
+
+/* put footer at bottom center of the page */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+}
+
