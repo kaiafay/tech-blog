@@ -16,7 +16,8 @@ nav {
 h1, 
 h3, 
 h5, 
-h6, 
+h6,
+form, 
 div.text,
 div.meta,
 a.post {
@@ -47,6 +48,11 @@ h5, h6 {
 /* make comment text bold */
 .text {
     font-weight: 600;
+}
+
+#login-btn,
+#signup-btn {
+    margin-bottom: 12%;
 }
 
 /* put footer at bottom center of the page */
