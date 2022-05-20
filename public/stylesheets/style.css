@@ -2,11 +2,9 @@
 header {
     display: flex;
     justify-content: space-between;
-}
-
-/* create a little space left of the elements */
-h1, h3, h5, a.post {
-    margin-left: 1%;
+    background-color: lightgray;
+    margin-bottom: 1%;
+    padding: 0.25% 0;
 }
 
 /* space nav bar */
@@ -14,10 +12,31 @@ nav {
     margin: 0.5% 1.5% 0 0;
 }
 
+/* create a little space left of the elements */
+h1, 
+h3, 
+h5, 
+h6, 
+div.text,
+div.meta,
+a.post {
+    margin-left: 1%;
+}
+
+/* make smaller headers a lighter color */
+h5, h6 {
+  color: rgb(100, 100, 100);  
+}
+
+/* put space between posts */
+.post-preview {
+    margin-top: 1%;
+}
+
 /* put footer at bottom center of the page */
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 18%;
+    margin-top: 14.5%;
 }
 

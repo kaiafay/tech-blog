@@ -1,11 +1,11 @@
-<div class="post-previews">
+<div>
     {{#each posts as |post|}}
-    <article class="post">
+    <article class="post-preview">
         <div>
             <h3>{{title}}</h3>
             <h5>Posted by {{user.username}} on {{format_date created_at}}</h5>
             {{!-- takes user to single post --}}
-            <a href="/post/{{id}}" class="post">View Post</a>
+            <a href="/post/{{id}}" class="post btn btn-outline-secondary">View Post</a>
         </div>
     </article>
     {{/each}}
