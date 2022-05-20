@@ -26,4 +26,19 @@ async function editPostHandler(e) {
     }
 };
 
+async function deletePostHandler(e) {
+    e.preventDefault();
+
+    const response = await fetch(`/api/posts/${id}`, {
+        method: 'delete'
+    });
+
+    if(response.ok) {
+        document.location.replace('/dashboard');
+    } else {
+        alert(response.statusText);
+    }
+};
+
 document.querySelector('.edit-post-form').addEventListener('submit', editPostHandler);
+document.querySelector('.delete-post-btn').addEventListener('click', deletePostHandler);
