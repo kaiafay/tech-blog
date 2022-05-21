@@ -55,6 +55,16 @@ h5, h6 {
     margin-bottom: 12%;
 }
 
+#create-comment {
+    margin-top: 0.75%;
+    width: 18%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
 /* put footer at bottom center of the page */
 footer {
     display: flex;
