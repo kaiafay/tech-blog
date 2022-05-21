@@ -13,7 +13,8 @@ nav {
 }
 
 /* create space left of the elements */
-h1, 
+h1,
+h2, 
 h3, 
 h5, 
 h6,
@@ -50,11 +51,13 @@ h5, h6 {
     font-weight: 600;
 }
 
+/* create space between buttons and forms */
 #login-btn,
 #signup-btn {
     margin-bottom: 12%;
 }
 
+/* style comment form box */
 #create-comment {
     margin-top: 0.75%;
     width: 18%;
@@ -65,6 +68,32 @@ h5, h6 {
     resize: none;
 }
 
+/* style post text form box */
+#post-body {
+    width: 25%;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;  
+}
+
+/* put space between create post form and your post section */
+#your-posts {
+    margin-top: 1%;
+}
+
+/* put space between create new post title and header */
+#create-post {
+    margin-bottom: 1%;
+}
+
+/* add background color to your posts section */
+.your-posts {
+    background-color: whitesmoke;
+}
+
+#edit-post {
+    margin-bottom: 1%;
+}
 /* put footer at bottom center of the page */
 footer {
     display: flex;
