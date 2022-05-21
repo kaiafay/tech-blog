@@ -18,7 +18,7 @@ The application follows the MVC paradigm in its structure, utilizing Handlebars.
 * connect-session-sequelize 
 
 ## Link to Deployed Application
-(insert Heroku link here)
+https://tech-blog9.herokuapp.com/
 
 ## Mock Up
 (insert screenshots here)
