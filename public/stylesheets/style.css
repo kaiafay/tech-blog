@@ -69,7 +69,8 @@ h5, h6 {
 }
 
 /* style post text form box */
-#post-body {
+#post-body,
+#edit-body {
     width: 25%;
     border-radius: 4px;
     font-size: 16px;
