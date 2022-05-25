@@ -21,4 +21,5 @@ The application follows the MVC paradigm in its structure, utilizing Handlebars.
 https://tech-blog9.herokuapp.com/
 
 ## Mock Up
-(insert screenshots here)
+![mockup of homepage](assets/images/mockup-techblog.jpg)
+![mockup of dashboard](assets/images/mockup-techblog2.jpg)
